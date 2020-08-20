@@ -1,0 +1,50 @@
+/* CALCULADORA */
+
+body {
+    background: #202020;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #f9f9f9;
+}
+
+.viewCalc {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+table td input {
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    margin: 2;
+    border: 0px;
+    color: #202020;
+    background: #f9f9f9; 
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto | Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form name="form">
+            <h2>CALCULADORA</h2>
+            <input class="viewCalc" name="viewCalc">
+            <table>
+                <td>
+                    <input type="button" onclick="clearAll()" value="C">
+                    <input type="button" onclick="back()" value="<">
+                    <input type="button" onclick="insert('/')" value="/">
+                    <input type="button" onclick="insert('*')" value="*">
+                </td>
+                <tr>
+                    <td>
+                        <input type="button" onclick="insert(7)" value="7">
+                        <input type="button" onclick="insert(8)" value="8">
+                        <input type="button" onclick="insert(9)" value="9">
+                        <input type="button" onclick="insert('+')" value="+">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" onclick="insert(4)" value="4">
+                        <input type="button" onclick="insert(5)" value="5">
+                        <input type="button" onclick="insert(6)" value="6">
+                        <input type="button" onclick="insert('-')" value="-">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" onclick="insert(1)" value="1">
+                        <input type="button" onclick="insert(2)" value="2">
+                        <input type="button" onclick="insert(3)" value="3">
+                        <input type="button" onclick="equal()" value="=">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="hidden">
+                        <input type='button' value='0' onclick="insert(0)" id='n0'>
+                        <input type='button' value='.' onclick="insert('.')" id='n0'>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
